@@ -10,13 +10,13 @@ instructions for installing a list of packages using the `pacman` package manage
 ## Installation
 
 ### 1. Update package databases
-
 Before installing new packages, it's recommended to update your package databases:
 
 ```bash
 sudo pacman -Syu && sudo pacman -S brightnessctl fastfetch foot hyprpaper imv lf mpv neovim ttf-jetbrains-mono-nerd waybar bleachbit htop
 ```
 ### 2. ly window manager
+- A chad Terminal Window Manager
 
 ```bash
 nvim /etc/ly/config.ini
@@ -32,13 +32,14 @@ makepkg -si
 ```
 paru -S swaylock-effects
 ```
-### 5. Packages that i dont use
+### 5. Packages that i Dont Use
 - like delete vim cause we already install neovim
 
-see packages
+See Installed Packages
 ```bash
 sudo pacman -Qt
 ```
+Rremove Packages With its Dependencies
 ```bash
 sudo pacman -Rncsu vim
 ```
