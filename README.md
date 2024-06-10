@@ -39,7 +39,7 @@ See Installed Packages
 ```bash
 sudo pacman -Qt
 ```
-Rremove Packages With its Dependencies
+Remove Packages With its Dependencies
 ```bash
 sudo pacman -Rncsu vim
 ```
