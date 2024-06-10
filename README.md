@@ -21,17 +21,19 @@ sudo pacman -Syu && sudo pacman -S brightnessctl fastfetch foot hyprpaper imv lf
 ```bash
 nvim /etc/ly/config.ini
 ```
-### 3. Install Aur Helper, e.g., PARU
 
+### 3. Install Aur Helper, e.g., PARU
 ```bash
 git clone https://aur.archlinux.org/paru-git.git &&
 cd paru-git &&
 makepkg -si
 ```
+
 ### 4. SwayLock
 ```
 paru -S swaylock-effects
 ```
+
 ### 5. Packages that i Dont Use
 - like delete vim cause we already install neovim
 
@@ -39,6 +41,7 @@ See Installed Packages
 ```bash
 sudo pacman -Qt
 ```
+
 Remove Packages With its Dependencies
 ```bash
 sudo pacman -Rncsu vim
