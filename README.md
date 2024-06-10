@@ -21,7 +21,14 @@ sudo pacman -Syu && sudo pacman -S brightnessctl fastfetch foot hyprpaper imv lf
 ```bash
 nvim /etc/ly/config.ini
 ```
-### 3. SwayLock
+### 3. Install Aur Helper, e.g., PARU
+
+```bash
+git clone https://aur.archlinux.org/paru-git.git &&
+cd paru-git &&
+makepkg -si
+```
+### 4. SwayLock
 ```
 paru -S swaylock-effects
 ```
