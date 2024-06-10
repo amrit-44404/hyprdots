@@ -14,7 +14,7 @@ instructions for installing a list of packages using the `pacman` package manage
 Before installing new packages, it's recommended to update your package databases:
 
 ```bash
-sudo pacman -Syu && sudo pacman -S brightnessctl fastfetch foot hypridle hyprlock hyprpaper imv lf mpv neovim ttf-jetbrains-mono-nerd waybar ly
+sudo pacman -Syu && sudo pacman -S brightnessctl fastfetch foot hypridle hyprlock hyprpaper imv lf mpv neovim ttf-jetbrains-mono-nerd waybar
 ```
 ### 2. ly window manager
 
