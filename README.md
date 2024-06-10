@@ -16,7 +16,7 @@ Before installing new packages, it's recommended to update your package database
 sudo pacman -Syu && sudo pacman -S brightnessctl fastfetch foot hyprpaper imv lf mpv neovim ttf-jetbrains-mono-nerd waybar bleachbit htop
 ```
 ### 2. ly window manager
-- A chad Terminal Window Manager
+- A Terminal Window Manager
 
 ```bash
 nvim /etc/ly/config.ini
