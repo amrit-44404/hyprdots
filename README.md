@@ -32,3 +32,13 @@ makepkg -si
 ```
 paru -S swaylock-effects
 ```
+### 5. Packages that i dont use
+- like delete vim cause we already install neovim
+
+see packages
+```bash
+sudo pacman -Qt
+```
+```bash
+sudo pacman -Rncsu vim
+```
