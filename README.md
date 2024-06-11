@@ -46,3 +46,9 @@ Remove Packages With its Dependencies
 ```bash
 sudo pacman -Rncsu vim
 ```
+
+## 6. Kde Connect
+- To connect with Android
+```bash
+sudo pacman -S kdeconnect dolphin sshfs
+```
