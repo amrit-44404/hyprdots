@@ -15,7 +15,7 @@ Before installing new packages, it's recommended to update your package database
 ```bash
 sudo pacman -Syu && sudo pacman -S brightnessctl fastfetch foot hyprpaper imv lf mpv neovim ttf-jetbrains-mono-nerd waybar bleachbit htop
 ```
-## 2. ly Display manager
+## 2. ly display manager
 - A Terminal Window Manager
 
 ```bash
