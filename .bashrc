@@ -9,6 +9,7 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
+pfetch
 alias ff='pfetch'
 # Helpful aliases
 alias  c='clear'
@@ -26,6 +27,13 @@ alias pa='paru -Ss' # list availabe package
 alias pc='paru -Sc' # remove unused cache
 alias po='paru -Qtdq | paru -Rns -'
 alias poo='pacman -Qtdq | sudo pacman -Rncsu -'
+
+#youtube download
+alias yta-aac="yt-dlp --extract-audio --audio-format aac "
+alias yta-best="yt-dlp --extract-audio --audio-format best "
+alias yta-flac="yt-dlp --extract-audio --audio-format flac "
+alias yta-mp3="yt-dlp --extract-audio --audio-format mp3 "
+alias ytv-best="yt-dlp -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio' --merge-output-format mp4 "
 
 # NeoVim
 alias v='nvim' 
