@@ -13,7 +13,7 @@ instructions for installing a list of packages using the `pacman` package manage
 Before installing new packages, it's recommended to update your package databases:
 
 ```bash
-sudo pacman -Syu && sudo pacman -S brightnessctl fastfetch foot hyprpaper imv lf mpv neovim ttf-jetbrains-mono-nerd waybar bleachbit
+sudo pacman -Syu && sudo pacman -S brightnessctl foot hyprpaper imv lf mpv neovim ttf-jetbrains-mono-nerd waybar bleachbit
 ```
 ## 2. ly display manager
 - A Terminal Window Manager
